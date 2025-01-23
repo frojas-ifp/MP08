@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Japan Wave';
+    src: url('JapanWave.eot');
+    src: url('JapanWave.eot?#iefix') format('embedded-opentype'),
+        url('JapanWave.woff2') format('woff2'),
+        url('JapanWave.woff') format('woff'),
+        url('JapanWave.ttf') format('truetype'),
+        url('JapanWave.svg#JapanWave') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

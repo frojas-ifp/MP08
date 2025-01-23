@@ -1,0 +1,77 @@
+:root {
+    --color0: #72a98f;
+    --color1: #3d5a6c;
+    --color2: #433a3f;
+    --color3: #8de969;
+
+}
+
+@font-face {
+    font-family: 'Japan Wave';
+    src: url('../fonts/japanWave/JapanWave.eot');
+    src: url('../fonts/japanWave/JapanWave.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/japanWave/JapanWave.woff2') format('woff2'),
+        url('../fonts/japanWave/JapanWave.woff') format('woff'),
+        url('../fonts/japanWave/JapanWave.ttf') format('truetype'),
+        url('../fonts/japanWave/JapanWave.svg#JapanWave') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1 {text-align:center;
+    font-family: 'Japan Wave';
+    font-weight: normal;
+    font-style: normal;
+    color: var(--color3)
+}
+
+p {
+    padding: 1rem;
+    color: var(--color0);
+    cursor: zoom-in;
+}
+
+@media screen and (max-width: 480px) {
+
+    /* aquí va el disseny per smarthone */
+
+    body {
+        background: var(--color1);
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+    
+    /* aquí va el disseny per smarthone */
+
+    body {
+        background: var(--color2);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* aquí va el disseny per ordinador */
+
+    body {
+        background: var(--color3);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        columns: 2;
+    }
+}
