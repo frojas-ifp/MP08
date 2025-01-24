@@ -175,18 +175,10 @@ nav li:hover {
   padding: 5% 0 0 0;
 }
 
-.p4 {
-    background: pink;
-}
-
 .p3 ul {
     width: 960px;
     margin: auto;
-    padding-top: 50px;
-}
-
-.p3 h2 {
-
+    padding-top: 20px;
 }
 
 .p3 li {
@@ -307,6 +299,10 @@ nav li:hover {
     100% {
         transform: translateY(0px);
     }
+}
+
+.p4 {
+  background: pink;
 }
 
 /*---------------- Principio fondo animado -----------------*/
