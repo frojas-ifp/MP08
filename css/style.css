@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     font-family: "Lato", sans-serif;
-    font-size: 1.625rem;
+    font-size: 1rem;
     font-weight: 400;
     font-style: normal;
 }
@@ -17,16 +17,22 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    height: 50px;
     text-align: center;
     background: rgb(25,25,25);
     z-index: 1000;
 }
 
-nav li{
+nav a {
+  margin: 0 50px;
+}
+
+nav li {
     display: inline-block;
-    margin: 7px 20px;
+    margin: 6px 0px;
     color: white; 
     transition: 0.5s;
+    font-size: 1.8rem;
 }
 
 nav li:hover {
@@ -46,7 +52,6 @@ nav li:hover {
 
 .pagina {
   position: relative;
-  height: 100%;
 }
 
 .p1 h1 {
@@ -142,19 +147,54 @@ nav li:hover {
 
 .p2 {
   background: white;
+  width: 100%;
 }
 
 .p2 h2 {
     font-family: "krub";
-    font-size: 3.125rem;
+    font-size: 4rem;
     color: #336b5c;
-    padding: 5% 0 0 5%;
+    padding: 1% 0 0 5%;
     text-shadow: 2px 2px 0 #38ffc7;
 }
 
+.fotoperfil {
+  width: 22%;
+  margin: 2% 3% 0 5%;
+  float: left;
+}
+
+.fotoperfil img{
+  width: 100%;
+  border: solid 5px teal;
+  box-shadow: 0 0 10px #38ffc7;
+}
+
+.infoperfil {
+  overflow: hidden;
+  width: 65%;
+  margin: 2% 5% 0 0;
+}
+
 .p2 p {
-    width: 80%;
-    margin: 3% 0 0 5%;
+    font-size: 2rem;
+    margin: 0 0 2% 0;
+}
+
+.p2 h4 {
+  font-size: 2.5rem;
+  margin: 1% 0;
+}
+
+.p2 ul {
+  overflow: hidden;
+}
+
+.p2 li {
+  width: 40%;
+  font-size: 2rem;
+  float: left;
+  margin: 0 0 1% 2%;
 }
 
 .divisor2 {
@@ -165,21 +205,20 @@ nav li:hover {
 
 .p3 {
   background: #272727;
-  padding: 2% 0;
+  height: 1100px;
 }
 
 .p3 h2 {
   color: white;
   text-align: center;
   font-family: "krub";
-  font-size: 3.125rem;
-
+  font-size: 4rem;
+  padding: 2% 0;
 }
 
 .p3 ul {
     width: 899px;
     margin: auto;
-    padding-top: 20px;
 }
 
 .p3 li {
@@ -304,6 +343,80 @@ nav li:hover {
 
 .p4 {
   background: aquamarine;
+  height: 400px;
+}
+
+.p4 h2 {
+    color: black;
+    text-align: center;
+    font-family: "krub";
+    font-size: 4rem;
+    padding: 2% 0;
+}
+
+.p4 ul {
+  text-align: center;
+}
+
+.rs {
+  margin: 0 25px;
+}
+
+.rs p {
+  display: block;
+  font-size: 1.35rem;
+  color: #272727;
+  padding: 0 0 0 70px;
+  float: left;
+  line-height: 60px;
+}
+
+.instagram {
+  display: inline-block;
+  width: 155px;
+  height: 64px;
+  background-image: url(../img/instagram64.png);
+  background-repeat: no-repeat;
+}
+
+.facebook {
+  display: inline-block;
+  width: 150px;
+  height: 64px;
+  background-image: url(../img/facebook64.png);
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  display: inline-block;
+  width: 150px;
+  height: 64px;
+  background-image: url(../img/youtube64.png);
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  display: inline-block;
+  width: 150px;
+  height: 64px;
+  background-image: url(../img/twitterx64.png);
+  background-repeat: no-repeat;
+}
+
+.linkedin {
+  display: inline-block;
+  width: 150px;
+  height: 64px;
+  background-image: url(../img/linkedin64.png);
+  background-repeat: no-repeat;
+}
+
+.behance {
+  display: inline-block;
+  width: 150px;
+  height: 64px;
+  background-image: url(../img/behance64.png);
+  background-repeat: no-repeat;
 }
 
 /*---------------- Principio fondo animado -----------------*/
@@ -699,14 +812,7 @@ nav li:hover {
 
 @media screen and (max-width: 480px) {
   nav {
-    position: fixed;
-    height:;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgb(25,25,25);
-    background: red;
-    z-index: 1000;
+    
   }
 
   nav li{
